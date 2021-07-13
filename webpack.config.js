@@ -17,7 +17,7 @@ module.exports = {
     filename: '[name].bundle.js',
   },
   devServer: {
-    compress: true,
+    compress: false,
     port: 3000,
   },
   devtool: 'eval',
