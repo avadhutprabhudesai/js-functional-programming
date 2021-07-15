@@ -9,7 +9,7 @@ import {
   reverseArgs,
   strictCurry,
   uncurry,
-} from './function-inputs';
+} from './FLJS/function-inputs';
 
 /**
  * Partial Application
