@@ -1,5 +1,6 @@
 import { composeDemo } from './composition';
 import { curryDemo } from './curry';
+import { functorDemo } from './functor';
 
 console.log('\n\n\n\n*****************************');
 console.log(
@@ -10,3 +11,4 @@ console.log('*****************************\n\n\n\n');
 
 curryDemo();
 composeDemo();
+functorDemo();
