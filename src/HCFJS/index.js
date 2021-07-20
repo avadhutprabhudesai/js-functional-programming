@@ -1,3 +1,4 @@
+import { composeDemo } from './composition';
 import { curryDemo } from './curry';
 
 console.log('\n\n\n\n*****************************');
@@ -8,3 +9,4 @@ console.log(
 console.log('*****************************\n\n\n\n');
 
 curryDemo();
+composeDemo();
