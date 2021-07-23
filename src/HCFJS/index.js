@@ -2,6 +2,7 @@ import { composeDemo } from './composition';
 import { curryDemo } from './curry';
 import { functorDemo } from './functor';
 import { functorBoosterDemo } from './functor/functor-booster';
+import { eitherMonadDemo } from './monads/either';
 
 console.log('\n\n\n\n*****************************');
 console.log(
@@ -14,3 +15,4 @@ curryDemo();
 composeDemo();
 functorDemo();
 functorBoosterDemo();
+eitherMonadDemo();
